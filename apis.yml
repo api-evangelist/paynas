@@ -1,7 +1,28 @@
 aid: paynas
 name: Paynas
-description: Paynas is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Paynas is an Egyptian HR, payroll, and employee-benefits platform offering
+  hassle-free, digitized human-resources management for businesses. Through a
+  single web and mobile interface, Paynas handles attendance tracking, vacation
+  and leave management, payroll processing, and reporting analytics, while
+  extending financial services to employees through the Paynas Card — a
+  Visa-powered payroll card issued in partnership with Banque Misr — and
+  affordable medical-insurance packages provided in partnership with
+  Libano-Suisse. Backed by 500 Global, the company serves employers across Egypt.
+  Paynas publishes no public developer or API surface; this profile is a company
+  record in the API Evangelist network.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://paynas.com/images/logos/logo.png
 url: https://raw.githubusercontent.com/api-evangelist/paynas/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +32,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- HR
+- Payroll
+- Human Resources
+- Employee Benefits
+- Fintech
+- Payroll Cards
+- Insurance
+- Egypt
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +52,16 @@ maintainers:
 common:
 - type: Website
   url: https://paynas.com
+- type: Login
+  url: https://app.paynas.com
+- type: Support
+  url: https://paynas.com/contact.html
+- type: PrivacyPolicy
+  url: https://paynas.com/privacy.html
+- type: DomainSecurity
+  url: security/paynas-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
