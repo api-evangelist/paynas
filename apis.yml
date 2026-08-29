@@ -11,6 +11,17 @@ description: >-
   Libano-Suisse. Backed by 500 Global, the company serves employers across Egypt.
   Paynas publishes no public developer or API surface; this profile is a company
   record in the API Evangelist network.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
